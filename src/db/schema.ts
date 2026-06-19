@@ -5,7 +5,7 @@ import {
   timestamp,
 } from "drizzle-orm/pg-core";
 
-export const notes = pgTable("notes", {
+export const notes = pgTable("notes2", {
   id: serial("id").primaryKey(),
 
   content: text("content").notNull(),
